@@ -8,9 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Knots by Mahi - Online',
   description: 'Beautiful handmade products crafted with love. Discover unique wool accessories, flower kletchers, and custom gift hampers.',
-  icons: {
-    icon: './favicon.ico',
-  },
+  icons: './favicon.ico',
 };
 
 export default function RootLayout({
